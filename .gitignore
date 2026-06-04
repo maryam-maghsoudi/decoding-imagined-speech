@@ -1,0 +1,51 @@
+# Data files
+*.npy
+*.mat
+*.h5
+*.hdf5
+data/
+results/
+
+# Model files
+*.pth
+*.pt
+*.pkl
+*.joblib
+models/
+
+# Large output folders (keep structure but ignore contents)
+experiments/benchmarks/*/models/
+experiments/benchmarks/*/per_trial_r/
+fit_single_ch_avg_saved_val_idx/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Plots and figures (optional - you might want to keep some)
+*.png
+*.jpg
+*.pdf
+*.svg
